@@ -1,0 +1,26 @@
+{
+  "name": "ExpCalc",
+  "description": "Application to calculate expenses",
+  "main": "index.php",
+  "keywords": [
+    "ExpCalc"
+  ],
+  "authors": [
+    "Afzal",
+    "Durgpal"
+  ],
+  "license": "MIT",
+  "homepage": "index.php",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "angular": "angularjs#^1.5.8",
+    "bootstrap": "^3.3.7"
+  }
+}
