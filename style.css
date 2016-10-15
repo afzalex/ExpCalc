@@ -1,5 +1,9 @@
-.favicon {
+.exp-favicon {
     height: 120%;
     background-color: white;
     border-radius: 50px;
+    margin-top: -5px;
+}
+.exp-body {
+    margin-top: 35px !important;
 }
