@@ -24,6 +24,7 @@
     "bootstrap": "^3.3.7",
     "bootstrap-dropdown": "*",
     "chosen": "1.5.1",
-    "angular-chosen": "*"
+    "angular-chosen": "*",
+    "components-font-awesome": "^4.6.3"
   }
 }

@@ -1,3 +1,13 @@
+body {
+    background-image: url(background.jpg);
+}
+.badge-danger {
+    background-color: #a94442;
+}
+
+.badge-success {
+    background-color: #398439;
+}
 .exp-favicon {
     height: 120%;
     background-color: white;
@@ -5,5 +15,20 @@
     margin-top: -5px;
 }
 .exp-body {
-    margin-top: 35px !important;
+    margin-top: 35px;
+    background-color: transparent;
+}
+.exp-container{
+    background-color: rgba(255,255,255,0.75);
+}
+.exp-candidate-stat{
+    padding-left: 0px;
+}
+.exp-monthly-stat{
+    margin-left: 14px;
+    margin-right: 14px;
+    margin-top: -20px;
+}
+.exp-monthly-stat-head{
+    margin-top: -15px;
 }

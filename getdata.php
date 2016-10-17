@@ -6,7 +6,8 @@ $months = array('jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep',
 
 $data = array(
     'timestamp'=> date('l jS \of F Y h:i:s A'),
-    'months'=> array()
+    'months'=> array(),
+    'dat'=> $properties->ENTRIES_DIRECTORY.'/*'
 );
 
 foreach(glob($properties->ENTRIES_DIRECTORY.'/*') as $dirloc) {
@@ -51,7 +52,7 @@ foreach(glob($properties->ENTRIES_DIRECTORY.'/*') as $dirloc) {
             $average = $monthsum / count($candidates);
             $direntry['average'] = $average;
             for($i = 0; $i < count($candidates); $i++){
-                $candidates[$i]['balance'] = $average - $candidates[$i]['cost'];
+                $candidates[$i]['balance'] = $candidates[$i]['cost'] - $average;
             }
             $direntry['candidates'] = $candidates;
             array_push($data['months'], $direntry);
